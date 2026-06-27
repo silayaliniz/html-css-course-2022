@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <rect width="800" height="300" fill="#ffffff"/>
+
+  <!-- SPARK LETTER: "PERAMIO" bold caps with 4-point star replacing A counter
+       Inspired by: spark. agency, negative SPACE
+       One clever detail: star in A, rest is clean bold sans -->
+
+  <g transform="translate(55, 55)" fill="#0f0f1a">
+
+    <!-- P -->
+    <path d="
+      M 0,0 L 0,180 L 32,180 L 32,115 L 65,115
+      C 100,115 118,95 118,60 C 118,25 100,0 65,0 Z
+      M 32,30 L 60,30 C 82,30 90,42 90,60 C 90,78 82,88 60,88 L 32,88 Z
+    " fill-rule="evenodd"/>
+
+    <!-- E -->
+    <path d="
+      M 135,0 L 135,180 L 220,180 L 220,152 L 167,152 L 167,102
+      L 212,102 L 212,74 L 167,74 L 167,28 L 220,28 L 220,0 Z
+    "/>
+
+    <!-- R -->
+    <path d="
+      M 238,0 L 238,180 L 270,180 L 270,118 L 295,118 L 325,180 L 360,180
+      L 326,112 C 345,102 355,82 355,60 C 355,25 335,0 298,0 Z
+      M 270,30 L 293,30 C 318,30 326,42 326,60 C 326,78 318,90 293,90 L 270,90 Z
+    " fill-rule="evenodd"/>
+
+    <!-- A with 4-point STAR in counter (the clever detail) -->
+    <path d="
+      M 365,180 L 405,0 L 445,0 L 485,180 L 453,180 L 443,140 L 407,140 L 397,180 Z
+      M 413,112 L 437,112 L 425,55 Z
+    " fill-rule="evenodd"/>
+    <!-- 4-point star replacing the triangular counter -->
+    <path d="
+      M 425,68 L 420,85 L 413,90 L 420,95 L 425,112 L 430,95 L 437,90 L 430,85 Z
+    " fill="#ffffff"/>
+
+    <!-- M -->
+    <path d="
+      M 500,0 L 535,90 L 570,0 L 605,0 L 605,180 L 578,180
+      L 578,55 L 548,135 L 522,135 L 492,55 L 492,180 L 465,180 L 465,0 Z
+    "/>
+
+    <!-- I -->
+    <path d="M 622,0 L 654,0 L 654,180 L 622,180 Z"/>
+
+    <!-- O -->
+    <path d="
+      M 672,90 C 672,30 695,0 730,0 C 765,0 788,30 788,90
+      C 788,150 765,180 730,180 C 695,180 672,150 672,90 Z
+      M 702,90 C 702,140 712,155 730,155 C 748,155 758,140 758,90
+      C 758,40 748,25 730,25 C 712,25 702,40 702,90 Z
+    " fill-rule="evenodd"/>
+  </g>
+
+  <!-- Tagline -->
+  <text x="450" y="270" text-anchor="middle"
+        font-family="'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="11" font-weight="400" fill="#ccc" letter-spacing="5">GROWTH AGENCY</text>
+</svg>
