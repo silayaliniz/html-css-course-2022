@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5B2FBA;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="#ffffff"/>
+
+  <!-- Growth wave curve spanning the logo -->
+  <path d="M 80,280 Q 160,280 220,240 Q 280,200 340,180 Q 420,155 500,140 Q 560,128 620,100 Q 680,72 720,50"
+        fill="none" stroke="url(#waveGrad)" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Second parallel wave for depth -->
+  <path d="M 80,295 Q 160,295 220,258 Q 280,220 340,200 Q 420,175 500,162 Q 560,150 620,125 Q 680,98 720,72"
+        fill="none" stroke="url(#waveGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- "Peramio" wordmark — bold geometric -->
+  <g fill="#1a1a2e">
+    <!-- P -->
+    <path d="M 130,145 L 130,250 L 148,250 L 148,210 L 172,210 Q 200,210 200,178 Q 200,145 172,145 Z M 148,161 L 170,161 Q 182,161 182,178 Q 182,194 170,194 L 148,194 Z"/>
+    <!-- e -->
+    <path d="M 218,192 Q 218,175 236,175 Q 252,175 254,190 L 218,190 Z M 254,204 L 218,204 Q 220,222 238,222 Q 250,222 256,214 L 266,225 Q 256,238 236,238 Q 208,238 208,206 Q 208,175 236,175 Q 264,175 264,200 L 264,204 Z" fill-rule="evenodd"/>
+    <!-- r -->
+    <path d="M 278,236 L 278,178 L 296,178 L 296,190 Q 302,176 318,176 L 318,194 Q 300,193 296,206 L 296,236 Z"/>
+    <!-- a -->
+    <path d="M 330,206 Q 330,194 344,194 L 358,194 L 358,190 Q 358,180 344,180 Q 334,180 328,186 L 320,174 Q 330,166 346,166 Q 376,166 376,192 L 376,236 L 358,236 L 358,230 Q 352,238 338,238 Q 322,238 322,222 Q 322,208 338,206 L 358,204 L 358,200 L 342,200 Q 330,200 330,206 Z M 340,222 Q 340,228 350,228 Q 358,228 358,218 L 358,214 L 344,216 Q 340,217 340,222 Z" fill-rule="evenodd"/>
+    <!-- m -->
+    <path d="M 394,236 L 394,178 L 412,178 L 412,186 Q 418,176 432,176 Q 446,176 450,188 Q 456,176 472,176 Q 492,176 492,200 L 492,236 L 474,236 L 474,202 Q 474,192 464,192 Q 454,192 452,202 L 452,236 L 434,236 L 434,202 Q 434,192 424,192 Q 414,192 412,202 L 412,236 Z"/>
+    <!-- i -->
+    <circle cx="516" cy="155" r="8" fill="#5B2FBA"/>
+    <path d="M 508,178 L 524,178 L 524,236 L 508,236 Z"/>
+    <!-- o -->
+    <path d="M 540,206 Q 540,175 566,175 Q 592,175 592,206 Q 592,238 566,238 Q 540,238 540,206 Z M 558,206 Q 558,222 566,222 Q 574,222 574,206 Q 574,190 566,190 Q 558,190 558,206 Z" fill-rule="evenodd"/>
+  </g>
+
+  <!-- Small growth arrow at the end of wave -->
+  <polygon points="720,50 728,38 712,38" fill="#5B2FBA" opacity="0.8"/>
+
+  <!-- Tagline -->
+  <text x="400" y="330" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="400" fill="#aaa" letter-spacing="6">GROWTH AGENCY</text>
+</svg>

@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Peramio — Logo Konseptleri</title>
+  <title>Peramio — Logo Konseptleri v2</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      background: #f5f5f7;
-      color: #1a1a2e;
+      background: #0e0e12;
+      color: #f0f0f0;
       padding: 60px 20px;
     }
     .header {
@@ -18,141 +18,177 @@
     }
     .header h1 {
       font-size: 42px;
-      font-weight: 300;
-      letter-spacing: 8px;
+      font-weight: 200;
+      letter-spacing: 12px;
       margin-bottom: 12px;
+      color: #fff;
     }
     .header p {
-      font-size: 14px;
-      color: #888;
-      letter-spacing: 4px;
+      font-size: 13px;
+      color: #666;
+      letter-spacing: 5px;
       text-transform: uppercase;
     }
     .grid {
-      max-width: 1200px;
+      max-width: 1100px;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
-      gap: 48px;
+      gap: 56px;
     }
     .card {
-      background: #fff;
-      border-radius: 16px;
+      background: #18181f;
+      border-radius: 20px;
       overflow: hidden;
-      box-shadow: 0 2px 20px rgba(0,0,0,0.06);
-      transition: transform 0.2s;
+      border: 1px solid #2a2a35;
+      transition: transform 0.2s, border-color 0.3s;
     }
-    .card:hover { transform: translateY(-4px); }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #444;
+    }
     .card-logo {
-      padding: 40px;
+      padding: 48px;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: #fff;
-      border-bottom: 1px solid #f0f0f0;
+      background: #ffffff;
+      min-height: 280px;
     }
     .card-logo img {
       max-width: 100%;
       height: auto;
-      max-height: 300px;
+      max-height: 320px;
     }
     .card-info {
       padding: 32px 40px;
     }
     .card-info .konsept-no {
       font-size: 11px;
-      letter-spacing: 4px;
-      color: #bbb;
+      letter-spacing: 5px;
+      color: #555;
       text-transform: uppercase;
       margin-bottom: 8px;
     }
     .card-info h2 {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 500;
       margin-bottom: 12px;
+      color: #eee;
     }
     .card-info p {
-      font-size: 15px;
-      line-height: 1.7;
-      color: #555;
+      font-size: 14px;
+      line-height: 1.8;
+      color: #888;
+    }
+    .card-info .tags {
+      margin-top: 16px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
     }
     .card-info .tag {
       display: inline-block;
-      margin-top: 16px;
       padding: 4px 14px;
       border-radius: 20px;
-      background: #f0f0f5;
-      font-size: 12px;
-      color: #666;
+      background: #222230;
+      font-size: 11px;
+      color: #aaa;
       letter-spacing: 1px;
+    }
+    .inspiration {
+      font-size: 11px;
+      color: #555;
+      margin-top: 12px;
+      font-style: italic;
     }
   </style>
 </head>
 <body>
   <div class="header">
     <h1>PERAMIO</h1>
-    <p>Logo Konseptleri — Adım 2</p>
+    <p>Logo Konseptleri v2 — Araştırma Bazlı</p>
   </div>
 
   <div class="grid">
 
     <div class="card">
       <div class="card-logo">
-        <img src="konsept-1-monogram-cizgi.svg" alt="Konsept 1: Monogram Çizgi">
+        <img src="konsept-1-bold-monogram.svg" alt="Konsept 1: Bold Monogram">
       </div>
       <div class="card-info">
         <div class="konsept-no">Konsept 01</div>
-        <h2>Monogram Çizgi</h2>
-        <p>Büyük P harfi ince, kesintisiz tek çizgiyle çizilmiş. Üst kıvrım tam kapanmaz — "büyümeye açık kapı" metaforu. P'nin devamında aynı nefeste "eramio" yazısı akar.</p>
-        <span class="tag">Harf + Wordmark</span>
+        <h2>Bold Monogram</h2>
+        <p>Kalın, geometric P harfi — rounded terminaller, modern stroke. P'nin iç boşluğunda coral renkli yukarı yönlü ok, büyüme vaadini negatif alanda taşıyor. i noktası accent renkte. Favicon olarak tek başına P çalışır.</p>
+        <div class="tags">
+          <span class="tag">Monogram + Wordmark</span>
+          <span class="tag">Negatif Alan</span>
+        </div>
+        <p class="inspiration">HubSpot sprocket & Amplitude wave ilhamı</p>
       </div>
     </div>
 
     <div class="card">
       <div class="card-logo">
-        <img src="konsept-2-pera-yokusu.svg" alt="Konsept 2: Pera Yokuşu">
+        <img src="konsept-2-growth-wave.svg" alt="Konsept 2: Growth Wave">
       </div>
       <div class="card-info">
         <div class="konsept-no">Konsept 02</div>
-        <h2>Pera Yokuşu</h2>
-        <p>Beyoğlu'nun yokuşlarından ilham alan yükselen baseline. "i" noktası yukarı yönlü bir chevron'a dönüşür — growth'u söylemeden gösteren akıllı bir detay.</p>
-        <span class="tag">Wordmark</span>
+        <h2>Growth Wave</h2>
+        <p>Mor-lavanta gradient dalga eğrisi wordmark'ın arkasından geçiyor — sürekli yükselen büyüme grafiği. Path olarak çizilmiş custom geometric harfler, bold ama refined. Dalga sonunda küçük ok detayı.</p>
+        <div class="tags">
+          <span class="tag">Wordmark + Grafik</span>
+          <span class="tag">Gradient</span>
+        </div>
+        <p class="inspiration">Amplitude wave identity ilhamı</p>
       </div>
     </div>
 
     <div class="card">
       <div class="card-logo">
-        <img src="konsept-3-ic-ice-portallar.svg" alt="Konsept 3: İç İçe Portallar">
+        <img src="konsept-3-negative-space-arrow.svg" alt="Konsept 3: Negative Space Arrow">
       </div>
       <div class="card-info">
         <div class="konsept-no">Konsept 03</div>
-        <h2>İç İçe Portallar</h2>
-        <p>Dönüşüm kapısı: iç içe iki yuvarlatılmış dikdörtgen. İç form hafifçe kaymış — hareket hissi. Negatif alanda gizli bir P okuması. Pera'nın geçiş noktası ruhu.</p>
-        <span class="tag">Sembol + Wordmark</span>
+        <h2>Negative Space Arrow</h2>
+        <p>Tamamen büyük harfle cesur PERAMIO wordmark. A harfinin üçgen counter'ı doğal bir yukarı ok okuması veriyor — keşfedilmeyi bekleyen gizli sembol. Elektrik mavisi accent çizgi. Siyah üzerine sert, monumental duruş.</p>
+        <div class="tags">
+          <span class="tag">Bold Wordmark</span>
+          <span class="tag">Gizli Sembol</span>
+        </div>
+        <p class="inspiration">FedEx hidden arrow & Spartan Golf Club ilhamı</p>
       </div>
     </div>
 
     <div class="card">
       <div class="card-logo">
-        <img src="konsept-4-typographic-play.svg" alt="Konsept 4: Typographic Play">
+        <img src="konsept-4-geometric-mark.svg" alt="Konsept 4: Geometric Mark">
       </div>
       <div class="card-info">
         <div class="konsept-no">Konsept 04</div>
-        <h2>Typographic Play</h2>
-        <p>Tamamen küçük harfle, custom çizilmiş letterform. r-a ligature'ü organik bir bağ kurar, m'nin orta bacağı büyüme iması taşır. i noktası accent rengiyle vurgulanır.</p>
-        <span class="tag">Custom Wordmark</span>
+        <h2>Geometric Mark</h2>
+        <p>Üst üste binen iki rounded kare — teal ve amber. Kesişim alanı dönüşümü simgeliyor, içinde beyaz ok. Premium SaaS estetiği. Yanında light-weight path harflerle Peramio wordmark. i noktası teal accent.</p>
+        <div class="tags">
+          <span class="tag">Sembol + Wordmark</span>
+          <span class="tag">Overlap</span>
+        </div>
+        <p class="inspiration">Stripe / Notion / Mastercard overlap ilhamı</p>
       </div>
     </div>
 
     <div class="card">
-      <div class="card-logo">
-        <img src="konsept-5-pusula-noktasi.svg" alt="Konsept 5: Pusula Noktası">
+      <div class="card-logo" style="background: #ffffff;">
+        <img src="konsept-5-custom-lettering.svg" alt="Konsept 5: Custom Lettering">
       </div>
       <div class="card-info">
         <div class="konsept-no">Konsept 05</div>
-        <h2>Pusula Noktası</h2>
-        <p>"o" harfi yerine geometrik pusula diamond formu. Sağ üst köşe hafifçe sivrilmiş — yön ve ilerleme. Müşteriye rehberlik vaadini minimal bir müdahaleyle anlatır.</p>
-        <span class="tag">Sembol + Wordmark</span>
+        <h2>Custom Lettering</h2>
+        <p>Tamamen özel çizilmiş PERAMIO — kalın, geometric, monumental. P bowl'u mükemmel daire, A tepesi düz kesim (flat apex). Hem açık hem koyu arka plan versiyonu. Coral accent nokta. Sembol gerektirmeyen, kendi başına yeten wordmark.</p>
+        <div class="tags">
+          <span class="tag">Custom Wordmark</span>
+          <span class="tag">Açık + Koyu</span>
+        </div>
+        <p class="inspiration">2026 bold minimalism & custom lettering trendi</p>
       </div>
     </div>
 
