@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <rect width="800" height="300" fill="#ffffff"/>
+
+  <!-- MONVERA STYLE: Giant organic flowing P mark
+       70% match to Monvera's M: same thick organic flowing form,
+       same bold presence, smooth cubic bezier waves
+       P has two organic curves like Monvera's two peaks -->
+
+  <g transform="translate(80, 15)" fill="#0f0f1a">
+
+    <!-- Giant organic P: thick flowing form with wave-like bowl
+         Like Monvera's M but as a P — bold, organic, confident -->
+    <path d="
+      M 0,270
+      L 0,40
+      C 0,15 18,0 45,0
+      L 110,0
+      C 175,0 215,30 215,85
+      C 215,140 180,175 120,178
+      C 100,180 85,178 70,172
+      L 70,270
+      C 70,270 50,272 35,270
+      C 20,268 0,270 0,270
+      Z
+
+      M 70,60
+      L 70,120
+      C 82,128 95,132 112,130
+      C 148,126 165,108 165,85
+      C 165,58 145,45 115,45
+      L 85,48
+      C 78,49 70,54 70,60
+      Z
+    " fill-rule="evenodd"/>
+
+    <!-- Organic detail: the P bowl has a flowing tail
+         that extends slightly past the stem — like Monvera's wave -->
+    <path d="
+      M 120,178
+      C 155,175 180,158 195,135
+      C 210,112 220,98 235,95
+      C 250,92 258,100 252,115
+      C 242,138 218,165 180,182
+      C 155,192 130,185 120,178
+      Z
+    "/>
+  </g>
+
+  <!-- "PERAMIO" bold condensed next to the mark -->
+  <g transform="translate(390, 80)" fill="#0f0f1a">
+    <path d="M 0,0 L 0,140 L 24,140 L 24,90 L 48,90 C 72,90 88,72 88,45 C 88,18 72,0 48,0 Z M 24,22 L 44,22 C 58,22 66,30 66,45 C 66,60 58,68 44,68 L 24,68 Z" fill-rule="evenodd"/>
+    <path d="M 100,0 L 100,140 L 160,140 L 160,120 L 124,120 L 124,80 L 154,80 L 154,60 L 124,60 L 124,22 L 160,22 L 160,0 Z"/>
+    <path d="M 172,0 L 172,140 L 196,140 L 196,92 L 216,92 L 238,140 L 265,140 L 240,88 C 255,78 264,62 264,45 C 264,18 248,0 220,0 Z M 196,22 L 216,22 C 232,22 240,32 240,45 C 240,58 232,70 216,70 L 196,70 Z" fill-rule="evenodd"/>
+    <path d="M 275,140 L 302,0 L 330,0 L 358,140 L 335,140 L 328,108 L 304,108 L 297,140 Z M 308,88 L 324,88 L 316,38 Z" fill-rule="evenodd"/>
+    <path d="M 370,0 L 396,68 L 422,0 L 450,0 L 450,140 L 428,140 L 428,42 L 406,105 L 386,105 L 364,42 L 364,140 L 342,140 L 342,0 Z"/>
+    <path d="M 462,0 L 486,0 L 486,140 L 462,140 Z"/>
+    <path d="M 500,70 C 500,22 518,0 545,0 C 572,0 590,22 590,70 C 590,118 572,140 545,140 C 518,140 500,118 500,70 Z M 522,70 C 522,108 530,122 545,122 C 560,122 568,108 568,70 C 568,32 560,18 545,18 C 530,18 522,32 522,70 Z" fill-rule="evenodd"/>
+  </g>
+</svg>
