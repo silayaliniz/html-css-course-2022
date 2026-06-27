@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#652A80"/>
+  <!-- Centered P mark -->
+  <g transform="translate(100,80) scale(1.0)" fill="#FFFFFF">
+    <path d="
+      M 48,36 L 72,36 L 72,54
+      C 84,42 100,34 120,34
+      C 152,34 172,56 172,88
+      C 172,120 152,142 120,142
+      C 102,142 86,134 74,122
+      L 72,136 L 72,158
+      C 72,170 64,180 52,186
+      C 44,190 36,186 34,180
+      C 30,174 36,168 42,168
+      C 48,168 50,174 48,178
+      L 48,36 Z
+      M 72,88 C 72,68 88,54 116,54
+      C 144,54 156,68 156,88
+      C 156,108 144,122 116,122
+      C 88,122 72,108 72,88 Z
+    " fill-rule="evenodd"/>
+  </g>
+  <text x="200" y="320" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#F0EDE4" letter-spacing="4" opacity="0.6">PERAMIO</text>
+</svg>

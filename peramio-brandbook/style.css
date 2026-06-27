@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap');
+
+:root {
+  --purple: #652A80;
+  --coral: #E87461;
+  --dark: #2E1540;
+  --cream: #F0EDE4;
+  --grey: #8A8078;
+  --white: #FFFFFF;
+  --black: #1A1218;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+  background: var(--white);
+  color: var(--black);
+  line-height: 1.6;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+.page-header {
+  margin-bottom: 64px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e4de;
+}
+
+.page-header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--purple);
+  margin-bottom: 8px;
+}
+
+.page-header .subtitle {
+  font-size: 14px;
+  color: var(--grey);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section {
+  margin-bottom: 64px;
+}
+
+.section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 24px;
+}
+
+.section h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--grey);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.section p {
+  font-size: 15px;
+  color: #555;
+  max-width: 640px;
+  margin-bottom: 16px;
+}
+
+.logo-showcase {
+  background: var(--cream);
+  border-radius: 12px;
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.logo-showcase img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.logo-card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e8e4de;
+}
+
+.logo-card .preview {
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 160px;
+}
+
+.logo-card .preview img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+
+.logo-card .label {
+  padding: 12px 20px;
+  border-top: 1px solid #e8e4de;
+  font-size: 12px;
+  color: var(--grey);
+  font-weight: 500;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.color-swatch {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e8e4de;
+}
+
+.color-swatch .swatch {
+  height: 120px;
+}
+
+.color-swatch .info {
+  padding: 16px;
+}
+
+.color-swatch .info .name {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.color-swatch .info .hex {
+  font-size: 13px;
+  color: var(--grey);
+  font-family: 'SF Mono', monospace;
+}
+
+.color-swatch .info .rgb {
+  font-size: 11px;
+  color: #aaa;
+}
+
+.type-sample {
+  margin-bottom: 32px;
+  padding: 32px;
+  background: #fafaf8;
+  border-radius: 12px;
+}
+
+.type-sample .label {
+  font-size: 11px;
+  color: var(--grey);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.donts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.dont-card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e8e4de;
+  text-align: center;
+}
+
+.dont-card .preview {
+  padding: 24px;
+  background: #fafaf8;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dont-card .caption {
+  padding: 12px;
+  font-size: 12px;
+  color: var(--coral);
+  font-weight: 500;
+}
+
+.app-showcase {
+  background: #fafaf8;
+  border-radius: 12px;
+  padding: 40px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.app-showcase img, .app-showcase svg {
+  max-width: 100%;
+  height: auto;
+}
+
+nav.brand-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--white);
+  border-bottom: 1px solid #e8e4de;
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  z-index: 100;
+  font-size: 13px;
+}
+
+nav.brand-nav a {
+  color: var(--grey);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav.brand-nav a:hover {
+  color: var(--purple);
+}
+
+nav.brand-nav .brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: var(--purple);
+  font-size: 15px;
+  margin-right: auto;
+}
