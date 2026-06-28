@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <rect width="800" height="300" fill="#ffffff"/>
+
+  <!-- ARROW STYLE: Geometric P mark with upward direction + "PERAMIO" wordmark
+       70% match to Brand Up: same geometric arrow/direction forms,
+       same bold presence, growth direction embedded in letterform -->
+
+  <g fill="#0f0f1a">
+
+    <!-- GEOMETRIC P MARK: stem as upward arrow, bowl as forward form -->
+    <g transform="translate(60, 30)">
+      <!-- P stem with arrow tip pointing up -->
+      <path d="
+        M 40,0 L 12,50 L 28,50 L 28,240 L 52,240 L 52,50 L 68,50 Z
+      "/>
+      <!-- P bowl: geometric arc form pointing right/forward -->
+      <path d="
+        M 52,60 L 52,160
+        C 52,160 56,162 62,162
+        L 90,162
+        C 130,162 155,140 155,110
+        C 155,80 130,58 90,58
+        L 62,58 C 56,58 52,60 52,60 Z
+        M 52,82 L 88,82
+        C 116,82 130,92 130,110
+        C 130,128 116,138 88,138
+        L 52,138 Z
+      " fill-rule="evenodd"/>
+    </g>
+
+    <!-- "PERAMIO" geometric condensed wordmark -->
+    <g transform="translate(280, 80)" fill="#0f0f1a">
+      <!-- P -->
+      <path d="
+        M 0,0 L 0,140 L 20,140 L 20,88
+        L 36,88 C 60,88 74,70 74,44
+        C 74,18 60,0 36,0 Z
+        M 20,18 L 34,18 C 48,18 54,28 54,44
+        C 54,60 48,70 34,70 L 20,70 Z
+      " fill-rule="evenodd"/>
+
+      <!-- E -->
+      <path d="
+        M 86,0 L 86,140 L 140,140 L 140,122 L 106,122
+        L 106,78 L 134,78 L 134,60 L 106,60 L 106,18 L 140,18 L 140,0 Z
+      "/>
+
+      <!-- R -->
+      <path d="
+        M 152,0 L 152,140 L 172,140 L 172,92
+        L 186,92 L 208,140 L 232,140 L 208,88
+        C 220,80 228,66 228,46
+        C 228,16 212,0 188,0 Z
+        M 172,18 L 186,18 C 200,18 208,28 208,46
+        C 208,62 200,72 186,72 L 172,72 Z
+      " fill-rule="evenodd"/>
+
+      <!-- A -->
+      <path d="
+        M 244,140 L 268,0 L 292,0 L 316,140
+        L 296,140 L 290,112 L 270,112 L 264,140 Z
+        M 274,96 L 286,96 L 280,52 Z
+      " fill-rule="evenodd"/>
+
+      <!-- M -->
+      <path d="
+        M 328,0 L 352,68 L 376,0 L 400,0 L 400,140
+        L 380,140 L 380,42 L 358,106 L 346,106
+        L 324,42 L 324,140 L 304,140 L 304,0 Z
+      "/>
+
+      <!-- I -->
+      <rect x="414" y="0" width="20" height="140"/>
+
+      <!-- O -->
+      <path d="
+        M 448,70 C 448,22 466,0 490,0
+        C 514,0 532,22 532,70
+        C 532,118 514,140 490,140
+        C 466,140 448,118 448,70 Z
+        M 468,70 C 468,108 476,124 490,124
+        C 504,124 512,108 512,70
+        C 512,32 504,16 490,16
+        C 476,16 468,32 468,70 Z
+      " fill-rule="evenodd"/>
+    </g>
+  </g>
+
+  <text x="500" y="280" text-anchor="middle"
+        font-family="'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="11" font-weight="400" fill="#ccc" letter-spacing="5">GROWTH AGENCY</text>
+</svg>

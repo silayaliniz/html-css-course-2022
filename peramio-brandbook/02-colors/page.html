@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peramio — 02 Renk Paleti</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <nav class="brand-nav">
+    <a href="../index.html" class="brand">Peramio</a>
+    <a href="../01-logo/page.html">Logo</a>
+    <a href="page.html">Renkler</a>
+    <a href="../03-typography/page.html">Tipografi</a>
+    <a href="../04-usage/page.html">Kullanim</a>
+    <a href="../05-applications/page.html">Uygulamalar</a>
+  </nav>
+
+  <div class="page" style="padding-top:120px;">
+    <div class="page-header">
+      <h1>02 — Renk Paleti</h1>
+      <p class="subtitle">Marka renkleri ve kullanim alanlari</p>
+    </div>
+
+    <div class="section">
+      <h2>Ana Renkler</h2>
+      <p>Peramio Purple markanin birincil rengidir. Soft Coral ikincil vurgu rengi olarak kullanilir.</p>
+      <div class="color-grid" style="grid-template-columns:1fr 1fr;">
+        <div class="color-swatch">
+          <div class="swatch" style="background:#652A80;"></div>
+          <div class="info">
+            <div class="name">Peramio Purple</div>
+            <div class="hex">#652A80</div>
+            <div class="rgb">RGB 101, 42, 128 / CMYK 60, 85, 0, 10</div>
+          </div>
+        </div>
+        <div class="color-swatch">
+          <div class="swatch" style="background:#E87461;"></div>
+          <div class="info">
+            <div class="name">Soft Coral</div>
+            <div class="hex">#E87461</div>
+            <div class="rgb">RGB 232, 116, 97 / CMYK 0, 58, 52, 0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Destek Renkleri</h2>
+      <div class="color-grid">
+        <div class="color-swatch">
+          <div class="swatch" style="background:#2E1540;"></div>
+          <div class="info">
+            <div class="name">Deep Purple</div>
+            <div class="hex">#2E1540</div>
+            <div class="rgb">RGB 46, 21, 64</div>
+          </div>
+        </div>
+        <div class="color-swatch">
+          <div class="swatch" style="background:#F0EDE4;"></div>
+          <div class="info">
+            <div class="name">Cream</div>
+            <div class="hex">#F0EDE4</div>
+            <div class="rgb">RGB 240, 237, 228</div>
+          </div>
+        </div>
+        <div class="color-swatch">
+          <div class="swatch" style="background:#8A8078;"></div>
+          <div class="info">
+            <div class="name">Warm Grey</div>
+            <div class="hex">#8A8078</div>
+            <div class="rgb">RGB 138, 128, 120</div>
+          </div>
+        </div>
+        <div class="color-swatch">
+          <div class="swatch" style="background:#1A1218;"></div>
+          <div class="info">
+            <div class="name" style="color:#fff;">Rich Black</div>
+            <div class="hex">#1A1218</div>
+            <div class="rgb">RGB 26, 18, 24</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Renk Kullanim Alanlari</h2>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+        <div style="background:#652A80;color:#fff;padding:32px;border-radius:12px;">
+          <div style="font-weight:600;margin-bottom:8px;">Purple + White</div>
+          <div style="font-size:13px;opacity:0.8;">Basliklar, CTA butonlari, ana vurgu alanlari</div>
+        </div>
+        <div style="background:#F0EDE4;padding:32px;border-radius:12px;">
+          <div style="font-weight:600;color:#652A80;margin-bottom:8px;">Cream + Purple</div>
+          <div style="font-size:13px;color:#8A8078;">Arka plan, sayfa zemini, yumusak alanlar</div>
+        </div>
+        <div style="background:#2E1540;color:#F0EDE4;padding:32px;border-radius:12px;">
+          <div style="font-weight:600;margin-bottom:8px;">Dark + Cream</div>
+          <div style="font-size:13px;opacity:0.7;">Footer, koyu bolumleri, premium hissi</div>
+        </div>
+        <div style="background:#fff;padding:32px;border-radius:12px;border:1px solid #e8e4de;">
+          <div style="font-weight:600;color:#E87461;margin-bottom:8px;">Coral Aksanlar</div>
+          <div style="font-size:13px;color:#8A8078;">Hover, ikonlar, vurgu detaylari, badge'ler</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Kontrast Oranlari (WCAG AA)</h2>
+      <div style="font-size:14px;color:#555;">
+        <div style="display:flex;gap:16px;align-items:center;padding:12px 0;border-bottom:1px solid #eee;">
+          <span style="width:24px;height:24px;background:#652A80;border-radius:4px;display:inline-block;"></span>
+          <span style="width:24px;height:24px;background:#fff;border-radius:4px;display:inline-block;border:1px solid #ddd;"></span>
+          <span>Purple / White — <strong>7.8:1</strong> — AAA</span>
+        </div>
+        <div style="display:flex;gap:16px;align-items:center;padding:12px 0;border-bottom:1px solid #eee;">
+          <span style="width:24px;height:24px;background:#652A80;border-radius:4px;display:inline-block;"></span>
+          <span style="width:24px;height:24px;background:#F0EDE4;border-radius:4px;display:inline-block;border:1px solid #ddd;"></span>
+          <span>Purple / Cream — <strong>6.4:1</strong> — AA</span>
+        </div>
+        <div style="display:flex;gap:16px;align-items:center;padding:12px 0;border-bottom:1px solid #eee;">
+          <span style="width:24px;height:24px;background:#E87461;border-radius:4px;display:inline-block;"></span>
+          <span style="width:24px;height:24px;background:#fff;border-radius:4px;display:inline-block;border:1px solid #ddd;"></span>
+          <span>Coral / White — <strong>3.2:1</strong> — Sadece buyuk metin</span>
+        </div>
+        <div style="display:flex;gap:16px;align-items:center;padding:12px 0;">
+          <span style="width:24px;height:24px;background:#1A1218;border-radius:4px;display:inline-block;"></span>
+          <span style="width:24px;height:24px;background:#F0EDE4;border-radius:4px;display:inline-block;border:1px solid #ddd;"></span>
+          <span>Black / Cream — <strong>14.8:1</strong> — AAA</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

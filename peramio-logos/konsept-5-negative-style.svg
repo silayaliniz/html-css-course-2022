@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280">
+  <rect width="800" height="280" fill="#ffffff"/>
+
+  <!-- NEGATIVE SPACE STYLE: "PERAMIO" geometric uppercase
+       70% match to negative SPACE: same technique of hiding
+       a symbol in the negative space between letters.
+       Hidden upward arrow in the A-M junction -->
+
+  <g transform="translate(60, 50)" fill="#0f0f1a">
+
+    <!-- P -->
+    <path d="
+      M 0,0 L 0,170 L 26,170 L 26,105
+      L 46,105 C 78,105 98,82 98,52
+      C 98,22 78,0 46,0 Z
+      M 26,24 L 44,24 C 62,24 72,34 72,52
+      C 72,70 62,81 44,81 L 26,81 Z
+    " fill-rule="evenodd"/>
+
+    <!-- E -->
+    <path d="
+      M 112,0 L 112,170 L 178,170 L 178,146
+      L 138,146 L 138,97 L 172,97 L 172,73
+      L 138,73 L 138,24 L 178,24 L 178,0 Z
+    "/>
+
+    <!-- R -->
+    <path d="
+      M 194,0 L 194,170 L 220,170 L 220,108
+      L 238,108 L 264,170 L 294,170 L 264,104
+      C 280,94 290,76 290,54
+      C 290,20 270,0 240,0 Z
+      M 220,24 L 238,24
+      C 256,24 264,36 264,54
+      C 264,72 256,84 238,84 L 220,84 Z
+    " fill-rule="evenodd"/>
+
+    <!-- A + hidden arrow: the triangular counter of A and the gap
+         between A and M form an upward-pointing arrow shape -->
+    <path d="
+      M 306,170 L 338,0 L 368,0 L 400,170
+      L 374,170 L 366,134 L 340,134 L 332,170 Z
+      M 344,112 L 362,112 L 353,48 Z
+    " fill-rule="evenodd"/>
+
+    <!-- M: left leg positioned to create arrow negative space with A -->
+    <path d="
+      M 408,0 L 438,78 L 468,0 L 498,0
+      L 498,170 L 474,170 L 474,48
+      L 448,120 L 428,120
+      L 404,48 L 404,170 L 380,170 L 380,0 Z
+    "/>
+
+    <!-- I -->
+    <rect x="516" y="0" width="26" height="170"/>
+
+    <!-- O -->
+    <path d="
+      M 560,85 C 560,30 584,0 616,0
+      C 648,0 672,30 672,85
+      C 672,140 648,170 616,170
+      C 584,170 560,140 560,85 Z
+      M 586,85 C 586,128 596,148 616,148
+      C 636,148 646,128 646,85
+      C 646,42 636,22 616,22
+      C 596,22 586,42 586,85 Z
+    " fill-rule="evenodd"/>
+
+  </g>
+
+  <text x="400" y="258" text-anchor="middle"
+        font-family="'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="11" font-weight="400" fill="#ccc" letter-spacing="5">GROWTH AGENCY</text>
+</svg>

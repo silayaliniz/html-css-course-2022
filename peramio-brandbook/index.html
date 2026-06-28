@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peramio — Brand Guidelines</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { background: var(--cream); }
+    .cover {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 80px 40px;
+    }
+    .cover img {
+      max-width: 480px;
+      width: 100%;
+      margin-bottom: 48px;
+    }
+    .cover h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: var(--grey);
+      margin-bottom: 8px;
+    }
+    .cover .version {
+      font-size: 12px;
+      color: #bbb;
+      margin-bottom: 64px;
+    }
+    .toc {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 320px;
+      width: 100%;
+    }
+    .toc a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 20px;
+      background: var(--white);
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--black);
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .toc a:hover {
+      box-shadow: 0 2px 8px rgba(101,42,128,0.12);
+      transform: translateY(-1px);
+    }
+    .toc a span {
+      color: var(--purple);
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <img src="01-logo/logo-primary.svg" alt="Peramio">
+    <h1>Brand Guidelines</h1>
+    <p class="version">v1.0 — Haziran 2026</p>
+
+    <div class="toc">
+      <a href="01-logo/page.html">Logo <span>01</span></a>
+      <a href="02-colors/page.html">Renk Paleti <span>02</span></a>
+      <a href="03-typography/page.html">Tipografi <span>03</span></a>
+      <a href="04-usage/page.html">Kullanim Kurallari <span>04</span></a>
+      <a href="05-applications/page.html">Uygulamalar <span>05</span></a>
+    </div>
+  </div>
+</body>
+</html>
