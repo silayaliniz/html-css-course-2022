@@ -1,0 +1,155 @@
+<!-- @dsCard group="Brand Book" -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peramio - Logo Construction</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #F5F0E8;
+    min-height: 100vh;
+  }
+
+  .page {
+    width: 800px;
+    min-height: 1100px;
+    background: #F5F0E8;
+    padding: 80px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .page-number { position: absolute; top: 40px; right: 80px; font-size: 11px; font-weight: 300; color: #6B2D7B; opacity: 0.4; letter-spacing: 2px; }
+  .section-label { font-size: 11px; font-weight: 600; color: #6B2D7B; letter-spacing: 4px; text-transform: uppercase; opacity: 0.5; margin-bottom: 8px; }
+  .section-title { font-size: 42px; font-weight: 700; color: #6B2D7B; margin-bottom: 16px; line-height: 1.1; }
+  .section-desc { font-size: 14px; font-weight: 300; color: #6B2D7B; line-height: 1.8; max-width: 480px; opacity: 0.7; margin-bottom: 60px; }
+  .divider { width: 40px; height: 2px; background: #6B2D7B; opacity: 0.15; margin: 0 0 60px 0; }
+
+  .construction-area {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 20px rgba(107, 45, 123, 0.04);
+    margin-bottom: 40px;
+  }
+
+  .metric-labels {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .metric {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #6B2D7B;
+    opacity: 0.6;
+    letter-spacing: 1px;
+  }
+
+  .metric-line { width: 20px; height: 2px; }
+  .metric-line.ascender { background: #E84393; }
+  .metric-line.xheight { background: #6C5CE7; }
+  .metric-line.baseline { background: #00B894; }
+  .metric-line.descender { background: #FDCB6E; }
+
+  .notes {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .note { padding: 24px; background: rgba(107, 45, 123, 0.03); border-radius: 12px; }
+  .note-title { font-size: 12px; font-weight: 600; color: #6B2D7B; margin-bottom: 8px; letter-spacing: 1px; }
+  .note-text { font-size: 12px; font-weight: 300; color: #6B2D7B; line-height: 1.7; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="page-number">03</div>
+    <div class="section-label">02 — Construction</div>
+    <div class="section-title">Logo Construction</div>
+    <div class="divider"></div>
+    <div class="section-desc">
+      The Peramio logotype is built on a precise geometric grid system. The construction lines ensure visual harmony and consistent proportions across all applications.
+    </div>
+
+    <div class="construction-area">
+      <svg viewBox="0 0 580 170" width="560" height="164" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <clipPath id="pClipC">
+            <rect x="0" y="0" width="580" height="110"/>
+            <rect x="0" y="110" width="23" height="60"/>
+            <rect x="48" y="110" width="580" height="60"/>
+          </clipPath>
+        </defs>
+
+        <!-- Construction Grid - Horizontal -->
+        <line x1="30" y1="26" x2="540" y2="26" stroke="#E84393" stroke-width="0.6" opacity="0.4" stroke-dasharray="4,4"/>
+        <line x1="30" y1="48" x2="540" y2="48" stroke="#6C5CE7" stroke-width="0.6" opacity="0.4" stroke-dasharray="4,4"/>
+        <line x1="30" y1="70" x2="540" y2="70" stroke="#B8A0C4" stroke-width="0.4" opacity="0.25"/>
+        <line x1="30" y1="85" x2="540" y2="85" stroke="#B8A0C4" stroke-width="0.4" opacity="0.25"/>
+        <line x1="30" y1="105" x2="540" y2="105" stroke="#00B894" stroke-width="0.6" opacity="0.4" stroke-dasharray="4,4"/>
+        <line x1="30" y1="120" x2="540" y2="120" stroke="#B8A0C4" stroke-width="0.4" opacity="0.25"/>
+        <line x1="30" y1="140" x2="540" y2="140" stroke="#FDCB6E" stroke-width="0.6" opacity="0.4" stroke-dasharray="4,4"/>
+
+        <!-- Construction Grid - Vertical -->
+        <line x1="50" y1="18" x2="50" y2="148" stroke="#B8A0C4" stroke-width="0.4" opacity="0.2"/>
+        <line x1="100" y1="18" x2="100" y2="148" stroke="#B8A0C4" stroke-width="0.4" opacity="0.2"/>
+        <line x1="150" y1="18" x2="150" y2="148" stroke="#B8A0C4" stroke-width="0.4" opacity="0.2"/>
+        <line x1="200" y1="18" x2="200" y2="148" stroke="#B8A0C4" stroke-width="0.4" opacity="0.2"/>
+        <line x1="255" y1="18" x2="255" y2="148" stroke="#B8A0C4" stroke-width="0.4" opacity="0.2"/>
+        <line x1="315" y1="18" x2="315" y2="148" stroke="#B8A0C4" stroke-width="0.4" opacity="0.2"/>
+        <line x1="370" y1="18" x2="370" y2="148" stroke="#B8A0C4" stroke-width="0.4" opacity="0.2"/>
+        <line x1="410" y1="18" x2="410" y2="148" stroke="#B8A0C4" stroke-width="0.4" opacity="0.2"/>
+        <line x1="465" y1="18" x2="465" y2="148" stroke="#B8A0C4" stroke-width="0.4" opacity="0.2"/>
+        <line x1="520" y1="18" x2="520" y2="148" stroke="#B8A0C4" stroke-width="0.4" opacity="0.2"/>
+
+        <!-- Logo text -->
+        <text x="22" y="105" font-family="'Poppins', sans-serif" font-weight="800" font-size="85" fill="#6B2D7B" letter-spacing="-1" clip-path="url(#pClipC)">peramio</text>
+        <path d="M 35,98 L 35,125 C 35,138 28,141 18,138" stroke="#6B2D7B" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="35" cy="32" r="7.5" fill="#6B2D7B"/>
+
+        <!-- Metric labels -->
+        <text x="548" y="29" font-family="'Poppins', sans-serif" font-size="7" fill="#E84393" opacity="0.6">ASCENDER</text>
+        <text x="548" y="51" font-family="'Poppins', sans-serif" font-size="7" fill="#6C5CE7" opacity="0.6">X-HEIGHT</text>
+        <text x="548" y="108" font-family="'Poppins', sans-serif" font-size="7" fill="#00B894" opacity="0.6">BASELINE</text>
+        <text x="548" y="143" font-family="'Poppins', sans-serif" font-size="7" fill="#FDCB6E" opacity="0.6">DESCENDER</text>
+      </svg>
+
+      <div class="metric-labels">
+        <div class="metric"><div class="metric-line ascender"></div>Ascender Line</div>
+        <div class="metric"><div class="metric-line xheight"></div>X-Height</div>
+        <div class="metric"><div class="metric-line baseline"></div>Baseline</div>
+        <div class="metric"><div class="metric-line descender"></div>Descender</div>
+      </div>
+    </div>
+
+    <div class="notes">
+      <div class="note">
+        <div class="note-title">Distinctive "p"</div>
+        <div class="note-text">The custom "p" character features a swooping descender that curves to the left, and a characteristic dot above the stem, representing creativity and growth.</div>
+      </div>
+      <div class="note">
+        <div class="note-title">Grid System</div>
+        <div class="note-text">The logotype is constructed on a modular grid ensuring consistent letter spacing and proportional balance across all characters.</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

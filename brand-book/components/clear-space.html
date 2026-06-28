@@ -1,0 +1,161 @@
+<!-- @dsCard group="Brand Book" -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peramio - Clear Space & Minimum Size</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #F5F0E8;
+    min-height: 100vh;
+  }
+
+  .page {
+    width: 800px;
+    min-height: 1100px;
+    background: #F5F0E8;
+    padding: 80px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .page-number { position: absolute; top: 40px; right: 80px; font-size: 11px; font-weight: 300; color: #6B2D7B; opacity: 0.4; letter-spacing: 2px; }
+  .section-label { font-size: 11px; font-weight: 600; color: #6B2D7B; letter-spacing: 4px; text-transform: uppercase; opacity: 0.5; margin-bottom: 8px; }
+  .section-title { font-size: 42px; font-weight: 700; color: #6B2D7B; margin-bottom: 16px; line-height: 1.1; }
+  .section-desc { font-size: 14px; font-weight: 300; color: #6B2D7B; line-height: 1.8; max-width: 480px; opacity: 0.7; margin-bottom: 60px; }
+  .divider { width: 40px; height: 2px; background: #6B2D7B; opacity: 0.15; margin: 0 0 60px 0; }
+
+  .clearspace-area {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 20px rgba(107, 45, 123, 0.04);
+    margin-bottom: 40px;
+  }
+
+  .clearspace-note {
+    margin-top: 24px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #6B2D7B;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 1.7;
+    max-width: 400px;
+  }
+
+  .min-size-area {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 50px;
+    box-shadow: 0 2px 20px rgba(107, 45, 123, 0.04);
+  }
+
+  .min-sizes {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;
+  }
+
+  .min-size-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .min-size-label { font-size: 10px; font-weight: 500; color: #6B2D7B; opacity: 0.4; letter-spacing: 1px; text-align: center; text-transform: uppercase; }
+  .min-size-value { font-size: 11px; font-weight: 600; color: #E84393; letter-spacing: 1px; text-align: center; }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="page-number">07</div>
+    <div class="section-label">06 — Spacing</div>
+    <div class="section-title">Clear Space &<br>Minimum Size</div>
+    <div class="divider"></div>
+    <div class="section-desc">
+      To maintain the integrity and impact of the Peramio logo, a minimum clear space must be maintained around it at all times. The clear space is defined by the height of the letter "o" in the logotype (referred to as "X").
+    </div>
+
+    <div class="clearspace-area">
+      <svg viewBox="0 0 440 155" width="400" height="140" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <clipPath id="pCS">
+            <rect x="0" y="0" width="440" height="84"/>
+            <rect x="0" y="84" width="38" height="50"/>
+            <rect x="58" y="84" width="440" height="50"/>
+          </clipPath>
+        </defs>
+
+        <!-- Clear space border -->
+        <rect x="15" y="8" width="410" height="120" rx="6" fill="none" stroke="#E84393" stroke-width="1.2" opacity="0.4" stroke-dasharray="6,4"/>
+
+        <!-- X markers -->
+        <text x="210" y="22" font-family="'Poppins', sans-serif" font-weight="600" font-size="10" fill="#E84393" text-anchor="middle" opacity="0.6">X</text>
+        <text x="210" y="135" font-family="'Poppins', sans-serif" font-weight="600" font-size="10" fill="#E84393" text-anchor="middle" opacity="0.6">X</text>
+        <text x="25" y="70" font-family="'Poppins', sans-serif" font-weight="600" font-size="10" fill="#E84393" text-anchor="middle" opacity="0.6">X</text>
+        <text x="415" y="70" font-family="'Poppins', sans-serif" font-weight="600" font-size="10" fill="#E84393" text-anchor="middle" opacity="0.6">X</text>
+
+        <!-- Logo -->
+        <text x="42" y="80" font-family="'Poppins', sans-serif" font-weight="800" font-size="66" fill="#6B2D7B" letter-spacing="-0.5" clip-path="url(#pCS)">peramio</text>
+        <path d="M 53,75 L 53,96 C 53,106 49,108 42,106" stroke="#6B2D7B" stroke-width="12.5" fill="none" stroke-linecap="round"/>
+        <circle cx="53" cy="25" r="6" fill="#6B2D7B"/>
+
+        <text x="220" y="115" font-family="'Poppins', sans-serif" font-weight="300" font-size="9" fill="#6B2D7B" text-anchor="middle" letter-spacing="3">GROWTH AND CREATIVE AGENCY</text>
+      </svg>
+
+      <div class="clearspace-note">
+        The clear space "X" equals the height of the lowercase "o" in the logotype. No graphic elements, text, or edges should enter this protected zone.
+      </div>
+    </div>
+
+    <div class="section-label" style="margin-bottom: 16px;">Minimum Sizes</div>
+    <div class="min-size-area">
+      <div class="min-sizes">
+        <div class="min-size-item">
+          <svg viewBox="0 0 320 100" width="100" height="32">
+            <defs><clipPath id="pMS1"><rect x="0" y="0" width="320" height="69"/><rect x="0" y="69" width="12" height="50"/><rect x="28" y="69" width="320" height="50"/></clipPath></defs>
+            <text x="10" y="66" font-family="'Poppins', sans-serif" font-weight="800" font-size="55" fill="#6B2D7B" letter-spacing="-0.5" clip-path="url(#pMS1)">peramio</text>
+            <path d="M 19,61 L 19,80 C 19,89 15,91 9,89" stroke="#6B2D7B" stroke-width="10.5" fill="none" stroke-linecap="round"/>
+            <circle cx="19" cy="20" r="5" fill="#6B2D7B"/>
+          </svg>
+          <div class="min-size-label">Digital</div>
+          <div class="min-size-value">Min. 80px</div>
+        </div>
+        <div class="min-size-item">
+          <svg viewBox="0 0 320 100" width="160" height="50">
+            <defs><clipPath id="pMS2"><rect x="0" y="0" width="320" height="69"/><rect x="0" y="69" width="12" height="50"/><rect x="28" y="69" width="320" height="50"/></clipPath></defs>
+            <text x="10" y="66" font-family="'Poppins', sans-serif" font-weight="800" font-size="55" fill="#6B2D7B" letter-spacing="-0.5" clip-path="url(#pMS2)">peramio</text>
+            <path d="M 19,61 L 19,80 C 19,89 15,91 9,89" stroke="#6B2D7B" stroke-width="10.5" fill="none" stroke-linecap="round"/>
+            <circle cx="19" cy="20" r="5" fill="#6B2D7B"/>
+          </svg>
+          <div class="min-size-label">Print</div>
+          <div class="min-size-value">Min. 25mm</div>
+        </div>
+        <div class="min-size-item">
+          <svg viewBox="0 0 320 100" width="240" height="75">
+            <defs><clipPath id="pMS3"><rect x="0" y="0" width="320" height="69"/><rect x="0" y="69" width="12" height="50"/><rect x="28" y="69" width="320" height="50"/></clipPath></defs>
+            <text x="10" y="66" font-family="'Poppins', sans-serif" font-weight="800" font-size="55" fill="#6B2D7B" letter-spacing="-0.5" clip-path="url(#pMS3)">peramio</text>
+            <path d="M 19,61 L 19,80 C 19,89 15,91 9,89" stroke="#6B2D7B" stroke-width="10.5" fill="none" stroke-linecap="round"/>
+            <circle cx="19" cy="20" r="5" fill="#6B2D7B"/>
+          </svg>
+          <div class="min-size-label">Recommended</div>
+          <div class="min-size-value">120px+ / 40mm+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

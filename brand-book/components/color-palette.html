@@ -1,0 +1,278 @@
+<!-- @dsCard group="Brand Book" -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peramio - Color Palette</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #F5F0E8;
+    min-height: 100vh;
+  }
+
+  .page {
+    width: 800px;
+    min-height: 1100px;
+    background: #F5F0E8;
+    padding: 80px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .page-number {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    font-size: 11px;
+    font-weight: 300;
+    color: #6B2D7B;
+    opacity: 0.4;
+    letter-spacing: 2px;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #6B2D7B;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 8px;
+  }
+
+  .section-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #6B2D7B;
+    margin-bottom: 16px;
+    line-height: 1.1;
+  }
+
+  .section-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: #6B2D7B;
+    line-height: 1.8;
+    max-width: 480px;
+    opacity: 0.7;
+    margin-bottom: 60px;
+  }
+
+  .divider {
+    width: 40px;
+    height: 2px;
+    background: #6B2D7B;
+    opacity: 0.15;
+    margin: 0 0 60px 0;
+  }
+
+  .color-section-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #6B2D7B;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 20px;
+  }
+
+  .primary-colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 50px;
+  }
+
+  .color-card {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(107, 45, 123, 0.06);
+  }
+
+  .color-swatch {
+    height: 160px;
+  }
+
+  .color-info {
+    padding: 20px 24px;
+    background: #FFFFFF;
+  }
+
+  .color-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6B2D7B;
+    margin-bottom: 12px;
+  }
+
+  .color-values {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .color-value {
+    font-size: 11px;
+    font-weight: 400;
+    color: #6B2D7B;
+    opacity: 0.5;
+    letter-spacing: 0.5px;
+  }
+
+  .color-value span {
+    font-weight: 600;
+    opacity: 1;
+    color: #6B2D7B;
+  }
+
+  .secondary-colors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 50px;
+  }
+
+  .color-card-sm .color-swatch {
+    height: 100px;
+  }
+
+  .color-card-sm .color-info {
+    padding: 14px 16px;
+  }
+
+  .color-card-sm .color-name {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .tints-section {
+    margin-top: 20px;
+  }
+
+  .tint-row {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .tint-block {
+    flex: 1;
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 8px;
+  }
+
+  .tint-label {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="page-number">04</div>
+    <div class="section-label">03 — Colors</div>
+    <div class="section-title">Color Palette</div>
+    <div class="divider"></div>
+    <div class="section-desc">
+      Our color palette is rooted in the deep, rich purple that defines the Peramio identity. Complementary tones provide versatility while maintaining brand cohesion across all touchpoints.
+    </div>
+
+    <div class="color-section-title">Primary Colors</div>
+    <div class="primary-colors">
+      <div class="color-card">
+        <div class="color-swatch" style="background: #6B2D7B;"></div>
+        <div class="color-info">
+          <div class="color-name">Peramio Purple</div>
+          <div class="color-values">
+            <div class="color-value"><span>HEX</span> #6B2D7B</div>
+            <div class="color-value"><span>RGB</span> 107, 45, 123</div>
+            <div class="color-value"><span>CMYK</span> 65, 85, 0, 20</div>
+            <div class="color-value"><span>Pantone</span> 2613 C</div>
+          </div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background: #2D1438;"></div>
+        <div class="color-info">
+          <div class="color-name">Deep Plum</div>
+          <div class="color-values">
+            <div class="color-value"><span>HEX</span> #2D1438</div>
+            <div class="color-value"><span>RGB</span> 45, 20, 56</div>
+            <div class="color-value"><span>CMYK</span> 80, 95, 30, 45</div>
+            <div class="color-value"><span>Pantone</span> 2695 C</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="color-section-title">Secondary Colors</div>
+    <div class="secondary-colors">
+      <div class="color-card color-card-sm">
+        <div class="color-swatch" style="background: #F5F0E8;"></div>
+        <div class="color-info">
+          <div class="color-name">Warm Cream</div>
+          <div class="color-values">
+            <div class="color-value"><span>HEX</span> #F5F0E8</div>
+            <div class="color-value"><span>RGB</span> 245, 240, 232</div>
+          </div>
+        </div>
+      </div>
+      <div class="color-card color-card-sm">
+        <div class="color-swatch" style="background: #9B6BAD;"></div>
+        <div class="color-info">
+          <div class="color-name">Soft Violet</div>
+          <div class="color-values">
+            <div class="color-value"><span>HEX</span> #9B6BAD</div>
+            <div class="color-value"><span>RGB</span> 155, 107, 173</div>
+          </div>
+        </div>
+      </div>
+      <div class="color-card color-card-sm">
+        <div class="color-swatch" style="background: #C9B8D4;"></div>
+        <div class="color-info">
+          <div class="color-name">Lavender Mist</div>
+          <div class="color-values">
+            <div class="color-value"><span>HEX</span> #C9B8D4</div>
+            <div class="color-value"><span>RGB</span> 201, 184, 212</div>
+          </div>
+        </div>
+      </div>
+      <div class="color-card color-card-sm">
+        <div class="color-swatch" style="background: #1A0A22;"></div>
+        <div class="color-info">
+          <div class="color-name">Midnight Purple</div>
+          <div class="color-values">
+            <div class="color-value"><span>HEX</span> #1A0A22</div>
+            <div class="color-value"><span>RGB</span> 26, 10, 34</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="color-section-title">Primary Tints</div>
+    <div class="tints-section">
+      <div class="tint-row">
+        <div class="tint-block" style="background: #6B2D7B;"><span class="tint-label" style="color: #fff;">100%</span></div>
+        <div class="tint-block" style="background: #7E4A8E;"><span class="tint-label" style="color: #fff;">80%</span></div>
+        <div class="tint-block" style="background: #9B6BAD;"><span class="tint-label" style="color: #fff;">60%</span></div>
+        <div class="tint-block" style="background: #B896C4;"><span class="tint-label" style="color: #6B2D7B;">40%</span></div>
+        <div class="tint-block" style="background: #D5C1DA;"><span class="tint-label" style="color: #6B2D7B;">20%</span></div>
+        <div class="tint-block" style="background: #EDE4F0;"><span class="tint-label" style="color: #6B2D7B;">10%</span></div>
+        <div class="tint-block" style="background: #F6F1F8;"><span class="tint-label" style="color: #6B2D7B;">5%</span></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

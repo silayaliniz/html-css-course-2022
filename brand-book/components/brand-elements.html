@@ -1,0 +1,283 @@
+<!-- @dsCard group="Brand Book" -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peramio - Brand Elements</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #F5F0E8;
+    min-height: 100vh;
+  }
+
+  .page {
+    width: 800px;
+    min-height: 1100px;
+    background: #F5F0E8;
+    padding: 80px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .page-number {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    font-size: 11px;
+    font-weight: 300;
+    color: #6B2D7B;
+    opacity: 0.4;
+    letter-spacing: 2px;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #6B2D7B;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 8px;
+  }
+
+  .section-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #6B2D7B;
+    margin-bottom: 16px;
+    line-height: 1.1;
+  }
+
+  .section-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: #6B2D7B;
+    line-height: 1.8;
+    max-width: 480px;
+    opacity: 0.7;
+    margin-bottom: 60px;
+  }
+
+  .divider {
+    width: 40px;
+    height: 2px;
+    background: #6B2D7B;
+    opacity: 0.15;
+    margin: 0 0 60px 0;
+  }
+
+  .star-showcase {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    box-shadow: 0 2px 20px rgba(107, 45, 123, 0.04);
+    margin-bottom: 30px;
+  }
+
+  .star-display {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(107, 45, 123, 0.04);
+    border-radius: 16px;
+  }
+
+  .star-info h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6B2D7B;
+    margin-bottom: 10px;
+  }
+
+  .star-info p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #6B2D7B;
+    opacity: 0.6;
+    line-height: 1.8;
+  }
+
+  .star-variations {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 50px;
+  }
+
+  .star-var {
+    background: #FFFFFF;
+    border-radius: 16px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 20px rgba(107, 45, 123, 0.04);
+  }
+
+  .pattern-section {
+    margin-top: 20px;
+  }
+
+  .pattern-showcase {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 2px 20px rgba(107, 45, 123, 0.04);
+    margin-bottom: 30px;
+  }
+
+  .pattern-display {
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .pattern-label {
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6B2D7B;
+    opacity: 0.5;
+    letter-spacing: 1px;
+  }
+
+  .texture-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .texture-card {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(107, 45, 123, 0.04);
+  }
+
+  .texture-display {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .texture-info {
+    padding: 16px 20px;
+    background: #FFFFFF;
+  }
+
+  .texture-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: #6B2D7B;
+  }
+
+  .texture-desc {
+    font-size: 11px;
+    font-weight: 300;
+    color: #6B2D7B;
+    opacity: 0.5;
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="page-number">09</div>
+    <div class="section-label">08 — Elements</div>
+    <div class="section-title">Brand Elements</div>
+    <div class="divider"></div>
+    <div class="section-desc">
+      Supporting graphic elements complement the Peramio identity. The four-pointed star and brand patterns are used as accent elements across all brand materials.
+    </div>
+
+    <!-- Star Element -->
+    <div class="star-showcase">
+      <div class="star-display">
+        <svg width="60" height="60" viewBox="0 0 60 60">
+          <path d="M 30 0 L 34 24 L 60 30 L 34 36 L 30 60 L 26 36 L 0 30 L 26 24 Z" fill="#6B2D7B"/>
+        </svg>
+      </div>
+      <div class="star-info">
+        <h3>Four-Pointed Star</h3>
+        <p>The signature four-pointed star serves as a secondary brand mark. It represents the spark of creativity and can be used as a decorative accent, bullet point, or standalone brand element.</p>
+      </div>
+    </div>
+
+    <div class="star-variations">
+      <div class="star-var" style="background: #6B2D7B;">
+        <svg width="32" height="32" viewBox="0 0 60 60">
+          <path d="M 30 0 L 34 24 L 60 30 L 34 36 L 30 60 L 26 36 L 0 30 L 26 24 Z" fill="#FFFFFF"/>
+        </svg>
+      </div>
+      <div class="star-var" style="background: #2D1438;">
+        <svg width="32" height="32" viewBox="0 0 60 60">
+          <path d="M 30 0 L 34 24 L 60 30 L 34 36 L 30 60 L 26 36 L 0 30 L 26 24 Z" fill="#F5F0E8"/>
+        </svg>
+      </div>
+      <div class="star-var" style="background: #F5F0E8;">
+        <svg width="32" height="32" viewBox="0 0 60 60">
+          <path d="M 30 0 L 34 24 L 60 30 L 34 36 L 30 60 L 26 36 L 0 30 L 26 24 Z" fill="#6B2D7B"/>
+        </svg>
+      </div>
+      <div class="star-var">
+        <svg width="32" height="32" viewBox="0 0 60 60">
+          <path d="M 30 0 L 34 24 L 60 30 L 34 36 L 30 60 L 26 36 L 0 30 L 26 24 Z" fill="#9B6BAD"/>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Brand Patterns -->
+    <div class="section-label" style="margin-bottom: 20px;">Brand Textures</div>
+    <div class="texture-grid">
+      <div class="texture-card">
+        <div class="texture-display" style="background: #F5F0E8;">
+          <svg width="100%" height="100%" viewBox="0 0 300 160">
+            <defs>
+              <pattern id="starPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                <path d="M 20 8 L 21.5 18 L 32 20 L 21.5 22 L 20 32 L 18.5 22 L 8 20 L 18.5 18 Z" fill="#6B2D7B" opacity="0.08"/>
+              </pattern>
+            </defs>
+            <rect width="300" height="160" fill="url(#starPattern)"/>
+          </svg>
+        </div>
+        <div class="texture-info">
+          <div class="texture-name">Star Pattern - Light</div>
+          <div class="texture-desc">Subtle background texture for print and digital</div>
+        </div>
+      </div>
+      <div class="texture-card">
+        <div class="texture-display" style="background: #2D1438;">
+          <svg width="100%" height="100%" viewBox="0 0 300 160">
+            <defs>
+              <pattern id="starPatternDark" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                <path d="M 20 8 L 21.5 18 L 32 20 L 21.5 22 L 20 32 L 18.5 22 L 8 20 L 18.5 18 Z" fill="#F5F0E8" opacity="0.06"/>
+              </pattern>
+            </defs>
+            <rect width="300" height="160" fill="url(#starPatternDark)"/>
+          </svg>
+        </div>
+        <div class="texture-info">
+          <div class="texture-name">Star Pattern - Dark</div>
+          <div class="texture-desc">For dark themed applications</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
